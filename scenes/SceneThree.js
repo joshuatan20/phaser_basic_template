@@ -5,7 +5,7 @@ export default class SceneThree extends Phaser.Scene {
   }
 
   create() {
-    this.add.text(100, 100, 'Now in Scene Three \n You are awesome!');
+    this.add.text(100, 100, 'Hello from Ian');
     console.log('Hello from Scene Three');
   }
 }
